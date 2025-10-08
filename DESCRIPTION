@@ -1,9 +1,9 @@
 Package: TBSignatureProfiler
 Title: Profile RNA-Seq Data Using TB Pathway Signatures
-Version: 1.21.3
+Version: 1.21.4
 Authors@R: c(
     person("Kiloni", "Quiles", , "kiloni.quiles@rutgers.edu", role = c("cre"), 
-            comment = c(ORCID = "0000-0002-7521-5255"))
+            comment = c(ORCID = "0000-0002-7521-5255")),
     person("Aubrey R.", "Odom", , "aodom@bu.edu", role = c("aut", "dtm"),
            comment = c(ORCID = "0000-0001-7113-7598")),
     person("David", "Jenkins", , "dfj@bu.edu", role = c("aut", "org"),
@@ -24,8 +24,7 @@ Description: Gene signatures of TB progression, TB disease, and other TB
     app provides some functionality alongside for detailed command line
     accessibility.
 License: MIT + file LICENSE
-URL: https://github.com/wejlab/TBSignatureProfiler
-    https://wejlab.github.io/TBSignatureProfiler-docs/
+URL: https://github.com/wejlab/TBSignatureProfiler, https://wejlab.github.io/TBSignatureProfiler-docs/
 BugReports: https://github.com/wejlab/TBSignatureProfiler/issues
 Depends: 
     R (>= 4.4.0)
